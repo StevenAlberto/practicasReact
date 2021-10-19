@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+import App from './components/App/App';
 import reportWebVitals from './reportWebVitals';
+import Metodos from './Metodos/Metodos';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    <App/>
+    <Metodos nombre="Steven" edad="28"/>
   </React.StrictMode>,
   document.getElementById('root')
 );
